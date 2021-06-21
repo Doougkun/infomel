@@ -36,7 +36,7 @@ class Home extends React.Component {
           </View>
           <Card onPress={() =>
             this.props.navigation.navigate('Meio Ambiente')} style={styles.card}>
-            <Card.Cover source={require("../assets/bee-bg-1.png")} />
+            <Card.Cover source={require("../assets/bee-bg-1.png")} /> 
             <Card.Content>
               <Title>Meio Ambiente</Title>
             </Card.Content>
@@ -71,23 +71,25 @@ class Home extends React.Component {
 
 const styles = StyleSheet.create({
   container: {
-    marginTop: 15,
+    backgroundColor: 'rgba(243,198,34,1.00)',
   },
   card: {
     marginLeft: 15,
     marginRight: 15,
     marginBottom: 15,
+    backgroundColor: 'rgba(252,214,21,1.00)'
   },
   beeView: {
     justifyContent: "center",
     alignItems: "center",
+    marginTop: 15,
     marginBottom: 15,
   },
   beeIcon: {
     padding: 5,
     height: 48,
     width: 48,
-    backgroundColor: "#eeba19",
+    backgroundColor: 'rgba(243,198,34,1.00)',
     borderRadius: 12,
   },
 });

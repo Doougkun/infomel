@@ -36,16 +36,16 @@ class Beleza extends React.Component {
     return (
       <View
         style={{
-          backgroundColor: "white",
+          backgroundColor: 'rgba(252,214,21,0.75)',
           borderRadius: 5,
           height: '90%',
-          padding: 50,
-          marginLeft: 25,
-          marginRight: 25,
+          padding: 10,
+          marginLeft: 10,
+          marginRight: 10,
         }}
       >
-        <Text style={{ fontSize: 30 }}>{item.title}</Text>
-        <Text>{item.text}</Text>
+        <Text style={{ fontSize: 30, textAlign: "center" }}>{item.title}</Text>
+        <Text style={{ fontSize: 25, marginTop: 10, textAlign: "center" }}>{item.text}</Text>
       </View>
     );
   }
@@ -57,13 +57,13 @@ class Beleza extends React.Component {
         <Pagination
           dotsLength={carouselItems.length}
           activeDotIndex={activeIndex}
-          containerStyle={{ backgroundColor: 'rgba(0, 0, 0, 0.75)' }}
+          containerStyle={{ backgroundColor: 'rgba(252,214,21,0.92)' }}
           dotStyle={{
               width: 10,
               height: 10,
               borderRadius: 5,
               marginHorizontal: 8,
-              backgroundColor: 'rgba(255, 255, 255, 0.92)'
+              backgroundColor: 'rgba(35, 33, 44, 1.00)'
           }}
           inactiveDotStyle={{
               // Define styles for inactive dots here
@@ -93,7 +93,8 @@ class Beleza extends React.Component {
 
 const styles = StyleSheet.create({
   container: {
-    marginTop: 50,
+    paddingTop: 50,
+    backgroundColor: 'rgba(252,214,21,0.50)'
   },
 });
 

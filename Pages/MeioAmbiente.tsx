@@ -37,12 +37,15 @@ class MeioAmbiente extends React.Component {
       <View
         style={{
           backgroundColor: 'rgba(252,214,21,0.75)',
+          borderRadius: 5,
           height: '90%',
-          padding: 50
+          padding: 10,
+          marginLeft: 10,
+          marginRight: 10,
         }}
       >
         <Text style={{ fontSize: 30, textAlign: "center" }}>{item.title}</Text>
-        <Text style={{ textAlign: "center" }}>{item.text}</Text>
+        <Text style={{ fontSize: 25, marginTop: 10, textAlign: "center" }}>{item.text}</Text>
       </View>
     );
   }
