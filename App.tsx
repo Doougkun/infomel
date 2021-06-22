@@ -20,23 +20,11 @@ import Quiz from "./Pages/Quiz";
 
 const Stack = createStackNavigator();
 
-
-const MyTheme = {
-  ...DefaultTheme,
-  colors: {
-    ...DefaultTheme.colors,
-    //'card' é a cor de fundo da barra superior (navegação)
-    card: 'rgb(252, 214, 21)',
-    //'text' é a cor de texto da barra superior (navegação)
-    text: 'rgb(35, 33, 44)',
-  },
-};
-
 export default function App() {
   return (
     <NavigationContainer theme={MyTheme}>
       <Stack.Navigator>
-          <Stack.Screen name="Meu Mel" component={Home} />
+          <Stack.Screen name="InfoMel" component={Home} />
           <Stack.Screen
             name="Meio Ambiente"
             component={MeioAmbiente}
@@ -80,3 +68,14 @@ const styles = StyleSheet.create({
     borderRadius: 12,
   },
 });
+
+const MyTheme = {
+  ...DefaultTheme,
+  colors: {
+    ...DefaultTheme.colors,
+    //'card' é a cor de fundo da barra superior (navegação)
+    card: 'rgb(153, 36, 9)',
+    //'text' é a cor de texto da barra superior (navegação)
+    text: 'rgb(252, 214, 21)',
+  },
+};
