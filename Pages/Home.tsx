@@ -11,7 +11,7 @@ import {
   Provider as PaperProvider,
 } from "react-native-paper";
 
-const LeftContent = (props) => <Avatar.Icon {...props} icon="folder" />;
+const LeftContent = (props) => <Avatar.Icon {...props} icon="../assets/bee-logo.png" />;
 
 const theme = {
   ...DefaultTheme,
@@ -62,6 +62,17 @@ class Home extends React.Component {
               <Title>Quiz: Qual abelha você é?</Title>
             </Card.Content>
           </Card>
+          <Card onPress={() =>
+            this.props.navigation.navigate('Sobre Nós')} style={styles.card}>
+            <Card.Content>
+              <Title>Sobre Nós</Title>
+            </Card.Content>
+          </Card>
+          <View style={styles.beeView}>
+            <Text>
+              Versão 0.1.0
+            </Text>
+          </View>
           <StatusBar style="auto" />
         </ScrollView>
       </PaperProvider>

@@ -17,6 +17,7 @@ import MeioAmbiente from "./Pages/MeioAmbiente";
 import Saude from "./Pages/Saude";
 import Beleza from "./Pages/Beleza";
 import Quiz from "./Pages/Quiz";
+import SobreNos from "./Pages/SobreNos";
 
 const Stack = createStackNavigator();
 
@@ -40,6 +41,10 @@ export default function App() {
           <Stack.Screen
             name="Quiz"
             component={Quiz}
+          />
+          <Stack.Screen
+            name="Sobre Nós"
+            component={SobreNos}
           />
       </Stack.Navigator>
     </NavigationContainer>
