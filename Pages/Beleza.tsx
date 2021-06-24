@@ -9,8 +9,8 @@ class Beleza extends React.Component {
       activeIndex: 0,
       carouselItems: [
         {
-          title: "Item 1",
-          text: "Text 1",
+          title: "Pele",
+          text: "\t\t\tMáscaras feitas com mel limpam profundamente a pele, eliminando cravos e espinhas, além de clarear (SARETTA; BRANDÃO, 2021).",
         },
         {
           title: "Item 2",
@@ -45,7 +45,7 @@ class Beleza extends React.Component {
         }}
       >
         <Text style={{ fontSize: 30, textAlign: "center" }}>{item.title}</Text>
-        <Text style={{ fontSize: 25, marginTop: 10, textAlign: "center" }}>{item.text}</Text>
+        <Text style={{ fontSize: 25, marginTop: 10, textAlign: "justify" }}>{item.text}</Text>
       </View>
     );
   }

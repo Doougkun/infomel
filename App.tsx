@@ -13,11 +13,13 @@ import {
 import { createStackNavigator } from "@react-navigation/stack";
 import { NavigationContainer } from "@react-navigation/native";
 import Home from "./Pages/Home";
+import MelDerivados from "./Pages/MelDerivados";
 import MeioAmbiente from "./Pages/MeioAmbiente";
 import Saude from "./Pages/Saude";
 import Beleza from "./Pages/Beleza";
 import Quiz from "./Pages/Quiz";
 import SobreNos from "./Pages/SobreNos";
+import Referencias from "./Pages/Referencias";
 
 const Stack = createStackNavigator();
 
@@ -26,6 +28,10 @@ export default function App() {
     <NavigationContainer theme={MyTheme}>
       <Stack.Navigator>
           <Stack.Screen name="InfoMel" component={Home} />
+          <Stack.Screen
+            name="Mel e seus derivados"
+            component={MelDerivados}
+          />
           <Stack.Screen
             name="Meio Ambiente"
             component={MeioAmbiente}
@@ -45,6 +51,10 @@ export default function App() {
           <Stack.Screen
             name="Sobre Nós"
             component={SobreNos}
+          />
+          <Stack.Screen
+            name="Referências"
+            component={Referencias}
           />
       </Stack.Navigator>
     </NavigationContainer>

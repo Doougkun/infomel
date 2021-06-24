@@ -9,8 +9,8 @@ class MeioAmbiente extends React.Component {
       activeIndex: 0,
       carouselItems: [
         {
-          title: "Item 1",
-          text: "Text 1",
+          title: "Polinização",
+          text: "\t\t\tCerca de 80% da polinização que ocorre em vegetais é realizada pelas abelhas. Beneficiando o meio ambiente e até mesmo atividades agrárias (MARTINS, 2016).",
         },
         {
           title: "Item 2",
@@ -45,7 +45,7 @@ class MeioAmbiente extends React.Component {
         }}
       >
         <Text style={{ fontSize: 30, textAlign: "center" }}>{item.title}</Text>
-        <Text style={{ fontSize: 25, marginTop: 10, textAlign: "center" }}>{item.text}</Text>
+        <Text style={{ fontSize: 25, marginTop: 10, textAlign: "justify" }}>{item.text}</Text>
       </View>
     );
   }

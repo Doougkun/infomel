@@ -2,30 +2,29 @@ import React from "react";
 import { StyleSheet, Text, View } from "react-native";
 import Carousel, { Pagination } from "react-native-snap-carousel";
 
-class Saude extends React.Component {
+class Referencias extends React.Component {
   constructor(props: {} | Readonly<{}>) {
     super(props);
     this.state = {
       activeIndex: 0,
       carouselItems: [
         {
-          title: "Valor nutritivo",
-          text: "\t\t\tA grande quantidade de hidratos de carbono, como glicose e frutose, faz do mel um alimento com alta concentração de calorias e de grande qualidade (ZAMBERLAN; SANTOS, 2010).",
+          text: "MARTINS, 2016." +
+                "\n\nSARETTA; BRANDÃO, 2021." +
+                "\n\nTEIXEIRA, 2015." +
+                "\n\nZAMBERLAN; SANTOS, 2010."
+                ,
         },
         {
-          title: "Item 2",
-          text: "Text 2",
+          text: "TEIXEIRA, L. V.; VERÍSSIMO, S. A. O. Mel e derivados: a inspeção dos produtos apícolas é responsabilidade do médico veterinário. Cad. técn. Vet. Zoot., p. 115-129, 2015.",
         },
         {
-          title: "Item 3",
-          text: "Text 3",
+          text: "\n\nZAMBERLAN, L.; SANTOS, D. M. dos. O comportamento do consumidor de mel: um estudo exploratório. Revista de Administração e Ciências Contábeis, v. 5, n. 10, p. 45-50, 2010",
         },
         {
-          title: "Item 4",
           text: "Text 4",
         },
         {
-          title: "Item 5",
           text: "Text 5",
         },
       ],
@@ -44,8 +43,7 @@ class Saude extends React.Component {
           marginRight: 10,
         }}
       >
-        <Text style={{ fontSize: 30, textAlign: "center" }}>{item.title}</Text>
-        <Text style={{ fontSize: 25, marginTop: 10, textAlign: "justify" }}>{item.text}</Text>
+        <Text style={{ fontSize: 25, marginTop: 10, textAlign: "left" }}>{item.text}</Text>
       </View>
     );
   }
@@ -98,5 +96,5 @@ const styles = StyleSheet.create({
   },
 });
 
-export default Saude;
+export default Referencias;
 

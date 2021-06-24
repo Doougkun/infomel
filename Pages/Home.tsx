@@ -35,29 +35,36 @@ class Home extends React.Component {
             />
           </View>
           <Card onPress={() =>
+            this.props.navigation.navigate('Mel e seus derivados')} style={styles.card}>
+            <Card.Cover source={require("../assets/bee-bg-1.jpg")} /> 
+            <Card.Content>
+              <Title>Mel e seus derivados</Title>
+            </Card.Content>
+          </Card>
+          <Card onPress={() =>
             this.props.navigation.navigate('Meio Ambiente')} style={styles.card}>
-            <Card.Cover source={require("../assets/bee-bg-1.png")} /> 
+            <Card.Cover source={require("../assets/bee-bg-2.jpg")} /> 
             <Card.Content>
               <Title>Meio Ambiente</Title>
             </Card.Content>
           </Card>
           <Card onPress={() =>
             this.props.navigation.navigate('Saude')} style={styles.card}>
-            <Card.Cover source={require("../assets/bee-bg-2.jpg")} />
+            <Card.Cover source={require("../assets/bee-bg-3.jpg")} />
             <Card.Content>
               <Title>Saúde</Title>
             </Card.Content>
           </Card>
           <Card onPress={() =>
             this.props.navigation.navigate('Beleza')} style={styles.card}>
-            <Card.Cover source={require("../assets/bee-bg-3.jpg")} />
+            <Card.Cover source={require("../assets/bee-bg-4.jpg")} />
             <Card.Content>
               <Title>Beleza</Title>
             </Card.Content>
           </Card>
           <Card onPress={() =>
             this.props.navigation.navigate('Quiz')} style={styles.card}>
-            <Card.Cover source={require("../assets/bee-bg-4.jpg")} />
+            <Card.Cover source={require("../assets/bee-bg-5.jpg")} />
             <Card.Content>
               <Title>Quiz: Qual abelha você é?</Title>
             </Card.Content>
@@ -66,6 +73,12 @@ class Home extends React.Component {
             this.props.navigation.navigate('Sobre Nós')} style={styles.card}>
             <Card.Content>
               <Title>Sobre Nós</Title>
+            </Card.Content>
+          </Card>
+          <Card onPress={() =>
+            this.props.navigation.navigate('Referências')} style={styles.card}>
+            <Card.Content>
+              <Title>Referências</Title>
             </Card.Content>
           </Card>
           <View style={styles.beeView}>

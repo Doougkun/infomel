@@ -10,25 +10,25 @@ class SobreNos extends React.Component {
       carouselItems: [
         {
           title: "Propósito",
-          text: "\t\t\tAplicativo desenvolvido para divulgação científica dos benefícios do consumo de Mel e seus derivados. " +
+          text: "\t\t\tApp desenvolvido para divulgação científica dos benefícios do consumo de Mel e seus derivados. " +
                 "Realizado através da disciplina: Trabalho Interdisciplinar Obrigatório III, ministrada pelo Prof. Dr. Fernando " +
-                "Putti, na Universidade Estadual de São Paulo (UNESP), câmpus de Tupã (F.C.E. - Faculdade de Ciências e Engenharia).",
+                "Ferrari Putti, na Universidade Estadual de São Paulo (UNESP), câmpus de Tupã (F.C.E. - Faculdade de Ciências e Engenharia).",
         },
         {
           title: "Equipe",
-          text: "\t\t\tSob orientação do Prof. Dr. Fernando Putti, a equipe foi formada pelos seguintes discentes:\nDouglas C. " +
+          text: "\t\t\tSob orientação do Prof. Dr. Fernando Ferrari Putti, a equipe foi formada pelos seguintes discentes:\nDouglas C. " +
                 "de Almeida,\nGuilherme S. Gutnik,\nLíria A. Araújo,\nMaria Luiza T. Ribeiro,\nNatália M. R. Passos.\n\t\t\tNos " +
                 "próximos cards há informações adicionais sobre cada membro.",
         },
         {
           title: "Prof. Dr. Fernando",
-          text: "\t\t\tProf. Dr. Fernando Putti é docente dos cursos de Administração e Engenharia de Biossistema, pela UNESP F.C.E." +
+          text: "\t\t\tProf. Dr. Fernando Ferrari Putti é docente dos cursos de Administração e Engenharia de Biossistema, pela UNESP F.C.E." +
                 "- Câmpus de Tupã.\nLattes:\nLinkedin:",
         },
         {
           title: "Douglas",
           text: "\t\t\tDouglas Cardozo de Almeida é discente do 9º termo do curso de Engenharia de Biossistemas, pela UNESP F.C.E. - " +
-                "Câmpus de Tupã.\nLattes:\nLinkedin:",
+                "Câmpus de Tupã.\nLattes: teste\nLinkedin:",
         },
         {
           title: "Guilherme",

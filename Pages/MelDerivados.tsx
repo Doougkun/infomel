@@ -2,15 +2,15 @@ import React from "react";
 import { StyleSheet, Text, View } from "react-native";
 import Carousel, { Pagination } from "react-native-snap-carousel";
 
-class Saude extends React.Component {
+class MelDerivados extends React.Component {
   constructor(props: {} | Readonly<{}>) {
     super(props);
     this.state = {
       activeIndex: 0,
       carouselItems: [
         {
-          title: "Valor nutritivo",
-          text: "\t\t\tA grande quantidade de hidratos de carbono, como glicose e frutose, faz do mel um alimento com alta concentração de calorias e de grande qualidade (ZAMBERLAN; SANTOS, 2010).",
+          title: "Mel",
+          text: "\t\t\tO mel é o produto resultante da ação de enzimas salivares das abelhas sobre o néctar colhido das flores, sendo armazenado em favos em suas colmeias (TEIXEIRA; VERÍSSIMO, 2015).",
         },
         {
           title: "Item 2",
@@ -61,7 +61,6 @@ class Saude extends React.Component {
           dotStyle={{
               width: 10,
               height: 10,
-              borderRadius: 5,
               marginHorizontal: 8,
               backgroundColor: 'rgba(35, 33, 44, 1.00)'
           }}
@@ -95,8 +94,7 @@ const styles = StyleSheet.create({
   container: {
     paddingTop: 50,
     backgroundColor: 'rgba(252,214,21,0.50)'
-  },
+  }
 });
 
-export default Saude;
-
+export default MelDerivados;
