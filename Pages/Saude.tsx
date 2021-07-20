@@ -10,23 +10,23 @@ class Saude extends React.Component {
       carouselItems: [
         {
           title: "Valor nutritivo",
-          text: "\t\t\tA grande quantidade de hidratos de carbono, como glicose e frutose, faz do mel um alimento com alta concentração de calorias e de grande qualidade (ZAMBERLAN; SANTOS, 2010).",
+          text: "\t\t\tA grande quantidade de hidratos de carbono, como glicose e frutose, faz do mel um alimento com alta concentração de calorias e de grande qualidade." +
+                "\n(ZAMBERLAN; SANTOS, 2010)",
         },
         {
-          title: "Item 2",
-          text: "Text 2",
+          title: "Cicatrização",
+          text: "\t\t\tO consumo de mel reduz rapidamente as infecções das feridas edemas, dor e odor, facilitando o processo de cicatrização." +
+                "\n(ESCOBAR, 2013)",
         },
         {
-          title: "Item 3",
-          text: "Text 3",
+          title: "Remédio Natural",
+          text: "\t\t\tPesquisas relacionadas à sua composição apontam que o mesmo possui propriedades filantrópicas, tendo como destaque a ação anti-inflamatória e antimicrobiana." +
+                "\n(ESCOBAR, 2013)",
         },
         {
-          title: "Item 4",
-          text: "Text 4",
-        },
-        {
-          title: "Item 5",
-          text: "Text 5",
+          title: "Auxilia na digestão",
+          text: "\t\t\tO mel é um ótimo alimento natural para crianças e pessoas debilitadas, devido a qualidade da digestão dos açúcares redutores." +
+                "\n(ESCOBAR, 2013)",
         },
       ],
     };

@@ -1,10 +1,10 @@
 {
   "expo": {
-    "name": "tio3mel",
-    "slug": "tio3mel",
-    "version": "1.0.0",
+    "name": "InfoMel",
+    "slug": "infomel",
+    "version": "0.1.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/bee-logo.png",
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "contain",
@@ -20,13 +20,15 @@
       "supportsTablet": true
     },
     "android": {
+      "package": "br.com.infomel",
+      "versionCode": 1,
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
+        "foregroundImage": "./assets/bee-logo.png",
         "backgroundColor": "#FFFFFF"
       }
     },
     "web": {
-      "favicon": "./assets/favicon.png"
+      "favicon": "./assets/bee-logo.png"
     }
   }
 }

@@ -10,23 +10,20 @@ class MeioAmbiente extends React.Component {
       carouselItems: [
         {
           title: "Polinização",
-          text: "\t\t\tCerca de 80% da polinização que ocorre em vegetais é realizada pelas abelhas. Beneficiando o meio ambiente e até mesmo atividades agrárias (MARTINS, 2016).",
+          text: "\t\t\tCerca de 80% da polinização que ocorre em vegetais é realizada pelas abelhas. Beneficiando o meio ambiente e até mesmo atividades agrárias." +
+                "\n(MARTINS, 2016)",
         },
         {
-          title: "Item 2",
-          text: "Text 2",
+          title: "Matas Ciliares",
+          text: "As matas ciliares são excelentes fornecedoras de alimentos para as abelhas. Com a polinização das abelhas neste tipo de vegetação " +
+                "há a garantia de conservação de recursos hídricos." +
+                "\n(MARTINS, 2016)",
         },
         {
-          title: "Item 3",
-          text: "Text 3",
-        },
-        {
-          title: "Item 4",
-          text: "Text 4",
-        },
-        {
-          title: "Item 5",
-          text: "Text 5",
+          title: "Educação Ambiental",
+          text: "\t\t\tDevido a grande importância das abelhas no meio ambiente, produtores de mel passam a agir contra a " +
+                "destruição e degradação da natureza, utilizando a educação ambiental junto a pessoas próximas."+
+                "\n(MARTINS, 2016)",
         },
       ],
     };

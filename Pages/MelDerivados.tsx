@@ -10,23 +10,34 @@ class MelDerivados extends React.Component {
       carouselItems: [
         {
           title: "Mel",
-          text: "\t\t\tO mel é o produto resultante da ação de enzimas salivares das abelhas sobre o néctar colhido das flores, sendo armazenado em favos em suas colmeias (TEIXEIRA; VERÍSSIMO, 2015).",
+          text: "\t\t\tO mel é o produto resultante da ação de enzimas salivares das abelhas sobre o néctar colhido das flores, sendo armazenado em favos em suas colmeias." +
+                "\n(TEIXEIRA; VERÍSSIMO, 2015)",
         },
         {
-          title: "Item 2",
-          text: "Text 2",
+          title: "Utilização",
+          text: "\t\t\tO mel mais escuro é mais utilizado como medicamento e o mel mais claro na gastronomia." +
+                "\n\t\t\tO maior uso dado ao mel é combinado com outros alimentos ou como remédio." +
+                "\n(RIBEIRO et al, 2009)",
         },
         {
-          title: "Item 3",
-          text: "Text 3",
+          title: "Outros produtos",
+          text: "\t\t\tAlém do mel, as colmeias são uma fonte de produtos nutritivos e com elevadas potencialidades farmacológicas, " +
+                "como a cera e a geleia real." +
+                "\n(TEIXEIRA; VERÍSSIMO, 2015)",
         },
         {
-          title: "Item 4",
-          text: "Text 4",
+          title: "Cera",
+          text: "\t\t\tA cera é um dos produtos da colmeia, obtido pela secreção das glândulas ceríferas das abelhas obreiras com idades " +
+                "entre os 12 e os 18 dias. Apresenta-se com uma cor branca, que por sua vez ao entrar em contato com o mel, torna-se " +
+                "amarelo." +
+                "\n(LOPES, 2014)",
         },
         {
-          title: "Item 5",
-          text: "Text 5",
+          title: "Geleria Real",
+          text: "\t\t\tA geleia real é uma secreção amarelada e cremosa, produzida pelas abelhas obreiras. É utilizado na nutrição de " +
+                "larvas de abelha." +
+                "\n\t\t\tÉ comumente aplicada em dietética, cosméticos, produtos farmacêuticos e alimentos saudáveis." +
+                "\n(LOPES, 2014)",
         },
       ],
     };

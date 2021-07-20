@@ -5,7 +5,7 @@ import { WebView } from 'react-native-webview';
 class Quiz extends React.Component {
   render() {
     return (
-      <WebView source={{ uri: 'https://buzzfeed.com.br/quiz/que-animal-de-roupinha-e-voce' }} />
+      <WebView source={{ uri: 'https://www.buzzfeed.com/doug12doug12/qual-espacie-de-abelha-voca-a-esytkb32zy' }} />
     );
   }
 }
